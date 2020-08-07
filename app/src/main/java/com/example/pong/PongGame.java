@@ -200,7 +200,7 @@ class PongGame extends SurfaceView implements Runnable {
             // Realistic-ish bounce
             mBall.batBounce(mBat.getRect());
             mBall.increaseVelocity();
-            mScore++;
+            mScore= mScore+50;
         }
 
         // Has the ball hit the edge of the screen
